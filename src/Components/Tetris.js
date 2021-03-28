@@ -7,10 +7,12 @@ import StartButton from './StartButton';
 
 //Functions
 import { createStage } from './gameHelpers';
+import {StyledTetrisWrapper, StyledTetris} from './styles/StyledTetris';
 
 function Tetris(){
     return(
-        <div>
+            <StyledTetrisWrapper>
+            <StyledTetris>
             <Stage stage={createStage()} />
             <aside> 
                 <div>
@@ -20,7 +22,8 @@ function Tetris(){
                 </div>
                 <StartButton />
             </aside>
-        </div>
+            </StyledTetris>
+            </StyledTetrisWrapper>
     )
 }
 
