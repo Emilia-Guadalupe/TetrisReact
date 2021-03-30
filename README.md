@@ -1,6 +1,6 @@
 # React Tetris - Starter files
 
-I made this Tetris Game with Free Code Camp's tutorial.
+I made this Tetris Game with Free Code Camp's tutorial, here: https://youtu.be/ZGOaCxX8HIU
 
 You can start downloading the files o cloning them. 
 
